@@ -15,7 +15,7 @@ function draw() {
   boxTwo.x = World.mouseX;
   boxTwo.y = World.mouseY;
 
-  if(isTouching(boxTwo, boxOne)){
+  if(isTouching( )){
     console.log("Box collided!");
   }
   else {
